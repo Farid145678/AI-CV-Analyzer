@@ -1,0 +1,69 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Virtual Environments
+# ======================
+.venv/
+venv/
+env/
+ENV/
+
+# ======================
+# Environment & Secrets
+# ======================
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# ======================
+# Databases (VERY IMPORTANT)
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================
+# Candidate / CV Data
+# ======================
+*.xlsx
+*.xls
+*.csv
+parsed_cvs/
+parsed_cvs_backup/
+parsed_cvs_enhanced/
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# IDE / Editor
+# ======================
+.idea/
+.vscode/
+*.iml
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
